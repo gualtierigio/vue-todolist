@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../img/tavolo.jpg);
+    font-family: 'Dancing Script', cursive;
+}
+
 main{
-    background-image: url(../img/yellow-ruled-personal_1.jpg);
+    background-image: url(../img/lista.jpeg);
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: bold;
 }
