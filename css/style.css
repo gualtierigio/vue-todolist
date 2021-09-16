@@ -37,6 +37,7 @@ li i{
 li i:hover{
     font-size: 18px;
     color: red;
+    text-decoration: line-through;
 }
 
 .addItem{
