@@ -25,7 +25,8 @@
                 <div class="row">
                     <div class="">
                         <h3 class="inline-block">aggiungi alla tua lista :</h3>
-                        <input class="addItem" type="text">
+                        <input v-model="newItem" class="addItem" type="text">
+                        <button @click="importNewItem">Aggiungi</button>
                     </div>
                     <div class="pt-3 col-12 d-flex">
                         <ul>

@@ -35,5 +35,12 @@ li i{
 
 .addItem{
     width: 40%;
-    background-color: burlywood;
+    background-color: #fef596;
+}
+
+button{
+    padding: 0 7px;
+    text-transform: uppercase;
+    color: rgb(217, 255, 80);
+    background-color: goldenrod;
 }

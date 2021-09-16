@@ -9,7 +9,16 @@ var groot = new Vue({
           'happy-hippo',
           'parmigiano',
           'latte'
-      ]
+      ],
+      newItem: '',
     },
-    methods: {}
+    methods: {
+        checked: function(){
+
+        },
+        importNewItem: function(){
+            this.listItems.push(this.newItem)
+            this.newItem = '' 
+        }
+    }
   });
