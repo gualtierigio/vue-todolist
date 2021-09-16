@@ -16,6 +16,10 @@ main{
     margin: 0 auto;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
 .title{
     font-weight: bold;
 }
@@ -27,4 +31,9 @@ main{
 li i{
     font-size: 16px;
     padding-left: 10px;
+}
+
+.addItem{
+    width: 40%;
+    background-color: burlywood;
 }
