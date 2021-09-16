@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url(../img/tavolo.jpg);
+    background-image: url(../img/Tavolo-da-pranzo.webp);
+    background-size: cover;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -31,6 +32,11 @@ main{
 li i{
     font-size: 16px;
     padding-left: 10px;
+}
+
+li i:hover{
+    font-size: 18px;
+    color: red;
 }
 
 .addItem{

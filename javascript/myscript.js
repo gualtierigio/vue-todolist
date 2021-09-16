@@ -13,8 +13,8 @@ var groot = new Vue({
       newItem: '',
     },
     methods: {
-        checked: function(){
-
+        checked: function(index){
+            this.listItems.splice(index, 1)
         },
         importNewItem: function(){
             this.listItems.push(this.newItem)

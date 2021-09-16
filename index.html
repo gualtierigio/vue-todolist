@@ -31,7 +31,7 @@
                     <div class="pt-3 col-12 d-flex">
                         <ul>
                             <li class="product" v-for="(item, index) in listItems">{{item}} 
-                                <i @click="checked"  class="fas fa-check"></i>
+                                <i @click="checked(index)"  class="fas fa-check"></i>
                             </li>
                         </ul> 
                     </div>
