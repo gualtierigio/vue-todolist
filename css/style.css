@@ -19,3 +19,7 @@ main{
 .title{
     font-weight: bold;
 }
+
+.col-12, .col-6{
+    border: 1px solid red;
+}

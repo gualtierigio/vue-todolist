@@ -18,12 +18,19 @@
     <title>Vue to-do list</title>
 </head>
 <body>
-    <main>
+    <main id="groot">
         <h1 class="text-center pt-5 title">Lista della spesa</h1>
         <div id="app">
             <div class="container">
                 <div class="row">
-                    <div class="pt-5 col-12 d-flex justify-content-center">   
+                    <div class="pt-5 col-12 d-flex justify-content-center">
+                        <div class="pt-5 col-6">
+                            <ul>
+                                <li v-for="(item, index) in listItems">{{item}}</li>
+                            </ul>   
+                        </div>
+                        <div class="pt-5 col-6">   
+                        </div>   
                     </div>
                 </div>
             </div>
