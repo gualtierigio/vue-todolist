@@ -34,10 +34,13 @@ li i{
     padding-left: 10px;
 }
 
+li:hover{
+    cursor: pointer;
+}
+
 li i:hover{
     font-size: 18px;
     color: red;
-    text-decoration: line-through;
 }
 
 .addItem{
@@ -50,4 +53,8 @@ button{
     text-transform: uppercase;
     color: rgb(217, 255, 80);
     background-color: goldenrod;
+}
+
+.line-through{
+    text-decoration: line-through;
 }
